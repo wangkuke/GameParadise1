@@ -23,7 +23,7 @@ function getPlugins() {
 
 export default defineConfig({
   plugins: getPlugins(),
-  base: './',
+  base: '/',
   define: {
     'process.env.NODE_ENV': '"production"',
     __DEFINES__: '{}',
