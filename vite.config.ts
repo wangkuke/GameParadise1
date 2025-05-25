@@ -25,7 +25,8 @@ export default defineConfig({
   plugins: getPlugins(),
   base: './',
   define: {
-    'process.env.NODE_ENV': '"production"'
+    'process.env.NODE_ENV': '"production"',
+    __DEFINES__: '{}'
   },
   build: {
     outDir: 'dist',
