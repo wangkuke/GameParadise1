@@ -40,7 +40,10 @@ export default defineConfig({
       output: {
         format: 'es',
         manualChunks: undefined,
-        inlineDynamicImports: true
+        inlineDynamicImports: true,
+        generatedCode: {
+          constBindings: true
+        }
       }
     },
     commonjsOptions: {
