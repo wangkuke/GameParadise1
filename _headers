@@ -1,9 +1,7 @@
 /*
   Content-Type: text/html
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' blob: data:; style-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; connect-src * 'unsafe-inline'; font-src * data: 'unsafe-inline'; frame-src *; object-src *; media-src *; form-action *;
 
 /assets/*
   Content-Type: application/javascript
-  X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; script-src * 'unsafe-inline' 'unsafe-eval' blob: data:; style-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; connect-src * 'unsafe-inline'; font-src * data: 'unsafe-inline'; frame-src *; object-src *; media-src *; form-action *; 
+  X-Content-Type-Options: nosniff 
