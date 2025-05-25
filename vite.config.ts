@@ -26,7 +26,8 @@ export default defineConfig({
   base: './',
   define: {
     'process.env.NODE_ENV': '"production"',
-    __DEFINES__: '{}'
+    __DEFINES__: '{}',
+    __HMR_CONFIG_NAME__: '{}'
   },
   build: {
     outDir: 'dist',
